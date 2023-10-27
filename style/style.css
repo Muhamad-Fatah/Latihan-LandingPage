@@ -1,0 +1,17 @@
+/* Ini fungsinya buat css reset dan ubah default style */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: transparent;
+}
+
+/* Ini fungsinya buat css reset dan ubah default style */
