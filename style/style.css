@@ -1,17 +1,45 @@
-/* Ini fungsinya buat css reset dan ubah default style */
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+/* Navbar style */
+ 
+header {
+    padding: 32px 160px;
+    display: flex;
+    justify-content: space-between;
 }
 
-a {
-    text-decoration: none;
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0px 8px;
 }
 
-button {
-    border: transparent;
+nav {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    font-size: 18px;
 }
 
-/* Ini fungsinya buat css reset dan ubah default style */
+nav a {
+    cursor: pointer;
+}
+
+.active {
+    color: blue;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+    transform-origin: 500ms;
+}
+
+.menu-wrapper {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 0px 32px;
+    cursor: pointer;
+}
+
+/* End navbar style */
