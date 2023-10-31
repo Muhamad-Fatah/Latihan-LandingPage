@@ -198,6 +198,50 @@ nav a:hover {
 .company-vision .text-section button:hover {
     background-color: #132da1;
 }
+/* List core card style */
+
+.list-core-cards {
+    display: flex;
+    justify-content: center;
+    gap: 0px 28px;
+    padding: 0px 160px;
+    margin: 140px 0px;
+}
+
+.list-core-cards .card {
+    border: 1px solid rgba(30, 71, 255, 37%);
+    border-radius: 10px;
+    padding: 48px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-core-cards .card .bg-icon {
+    background-color: #1e47ff;
+    padding: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.list-core-cards .card h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.list-core-cards .card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* End list core cards style */
+
+
 
 
 
