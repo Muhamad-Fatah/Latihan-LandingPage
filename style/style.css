@@ -118,6 +118,86 @@ nav a:hover {
 
 /* End navbar style */
 
+.company-vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 84px;
+    margin: 140px 0px;
+}
+
+.company-vision .img-section {
+    padding: 52px 40px;
+    position: relative;
+}
+
+.company-vision .img-section .experience {
+    text-align: center;
+    padding: 20px 12px;
+    background-color: #1e47ff;
+    color: #fff;
+    font-weight: 600;
+    width: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.company-vision .img-section .triangle-shape {
+    position: absolute;
+    bottom: 26px;
+    left: 20px;
+    z-index: -1;
+}
+
+.company-vision .img-section .img-small {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 6px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.company-vision .text-section {
+    width: 30%;
+}
+
+.company-vision .text-section .caption {
+    font-size: 16px;
+    color: #1b3868;
+    margin-bottom: 14px;
+}
+
+.company-vision .text-section h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 28px;
+}
+
+.company-vision .text-section .description {
+    font-size: 20px;
+    color: #333333;
+    line-height: 32px;
+    width: 64%;
+    margin-bottom: 24px;
+}
+
+.company-vision .text-section button {
+    font-weight: 700;
+    background-color: #1e47ff;
+    color: #fff;
+    border: transparent;
+    border-radius: 5px;
+    padding: 12px 36px;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.company-vision .text-section button:hover {
+    background-color: #132da1;
+}
 
 
 
