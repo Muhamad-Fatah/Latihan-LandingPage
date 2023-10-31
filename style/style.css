@@ -198,6 +198,7 @@ nav a:hover {
 .company-vision .text-section button:hover {
     background-color: #132da1;
 }
+
 /* List core card style */
 
 .list-core-cards {
@@ -240,6 +241,67 @@ nav a:hover {
 }
 
 /* End list core cards style */
+
+/* It solutions style */
+
+.it-solutions {
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.it-solutions h1 {
+    font-size: 48px;
+    color: #333333;
+    font-weight: 600;
+    line-height: 64px;
+    margin-bottom: 24px;
+}
+
+.it-solutions p {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 80px;
+}
+
+.it-solutions .list-it-cards {
+    display: flex;
+    justify-content: center;
+    gap: 0px 36px;
+    padding: 0px 126px;
+}
+
+.it-solutions .list-it-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+}
+
+
+.it-solutions .list-it-cards .card .image-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 64px;
+}
+
+.it-solutions .list-it-cards .card .image-wrapper div {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 20px 32px;
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -32px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 4px 18px rgba(30, 71, 255, 0.21));
+}
+   
+    /* End it soluions style */
+
 
 
 
