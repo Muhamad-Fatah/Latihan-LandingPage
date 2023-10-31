@@ -118,6 +118,7 @@ nav a:hover {
 
 /* End navbar style */
 
+/* company-vision style */
 .company-vision {
     display: flex;
     justify-content: center;
@@ -198,6 +199,8 @@ nav a:hover {
 .company-vision .text-section button:hover {
     background-color: #132da1;
 }
+/* End company-vivion Style */
+
 /* List core card style */
 
 .list-core-cards {
@@ -240,6 +243,66 @@ nav a:hover {
 }
 
 /* End list core cards style */
+
+/* Footer Style */
+footer {
+    padding: 62px;
+    color: #8b8f95;
+    font-weight: 300;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer .about-section {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-bottom: 80px;
+}
+
+footer .about-section h6 {
+    color: #16133e;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+footer .about-section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0px;
+}
+
+footer .about-section .logo-wrapper {
+    margin-bottom: 48px;
+}
+
+footer .about-section .list-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+    border-radius: 999px;
+    background-color: #F7F8FA;
+}
+
+footer .nav-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .nav-section ul {
+    display: flex;
+    gap: 0px 24px;
+}
+
+
+    
+
+
 
 
 
