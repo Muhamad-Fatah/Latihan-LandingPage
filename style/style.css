@@ -241,6 +241,59 @@ nav a:hover {
 
 /* End list core cards style */
 
+/* Latest News */
+
+.latest-news {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.latest-news h2 {
+    margin-bottom: 72px;
+}
+
+.latest-news .list-news-cards {
+    padding: 0px 90px;
+    display: grid;
+    gap: 0px 60px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.latest-news .list-news-cards .news-card {
+    width: fit-content;
+    text-align: left;
+
+}
+
+.latest-news .list-news-cards .news-card .image-wrapper {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.latest-news .list-news-cards .news-card .news-badge {
+    border-radius: 5px;
+    background: rgba(22, 19, 62, 0.45);
+    color: #FFF;
+    padding: 10px 8px;
+    width: fit-content;
+    position: absolute;
+    top: 22px;
+    left: 22px;
+}
+
+.latest-news .list-news-cards .news-card h3 {
+    font-size: 20px;
+    color: #16133E;
+    margin-bottom: 26px;
+}
+
+.latest-news .list-news-cards .news-card .autohor-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0px 10px;
+}
+
+/* End latest News */
 
 
 
